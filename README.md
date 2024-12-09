@@ -31,6 +31,7 @@ This is intended for everything related to Sky. This is new, so we'll see how it
 | tgc             | https://thatgamecompany.com                       |
 | tsa             | https://thatskyapplication.com                    |
 | tsg             | https://thatskygame.com                           |
+| wiki            | https://sky-children-of-the-light.fandom.com      |
 
 ## Support
 

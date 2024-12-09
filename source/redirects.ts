@@ -22,4 +22,5 @@ export const REDIRECTS = new Map<string, `https://${string}`>([
 	["tgc", "https://thatgamecompany.com"],
 	["tsa", "https://thatskyapplication.com"],
 	["tsg", "https://thatskygame.com"],
+	["wiki", "https://sky-children-of-the-light.fandom.com"],
 ]);
