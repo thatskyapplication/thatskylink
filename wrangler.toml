@@ -1,0 +1,9 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "thatskylink"
+main = "source/index.ts"
+compatibility_date = "2024-12-09"
+workers_dev = false
+routes = [{ pattern = "thatsky.link", custom_domain = true }]
+
+[observability]
+enabled = true
