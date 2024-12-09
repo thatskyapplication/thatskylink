@@ -1,4 +1,7 @@
 export const REDIRECTS = new Map<string, `https://${string}`>([
+	["creator-troupe", "https://thatskyapplication.com/creator-troupe"],
+	["cretro", "https://thatskyapplication.com/creator-troupe"],
+	["ct", "https://thatskyapplication.com/creator-troupe"],
 	["skycord", "https://discord.gg/thatskygame"],
 	["skydc", "https://discord.gg/thatskygame"],
 	["skydiscord", "https://discord.gg/thatskygame"],
