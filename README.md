@@ -27,6 +27,7 @@ This is intended for everything related to Sky. This is new, so we'll see how it
 | tsa             | https://thatskyapplication.com                    |
 | tsg             | https://thatskygame.com                           |
 | twitter         | https://x.com/thatskygame                         |
+| webshop         | https://webshop.thatskygame.com                   |
 | webstore        | https://webshop.thatskygame.com                   |
 | wiki            | https://sky-children-of-the-light.fandom.com      |
 | x               | https://x.com/thatskygame                         |
