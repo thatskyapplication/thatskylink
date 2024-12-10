@@ -8,7 +8,7 @@ This is intended for everything related to Sky. This is new, so we'll see how it
 
 ### General
 
-| Link           | URL                                           |
+| Identifier     | URL                                           |
 | -------------- | --------------------------------------------- |
 | creator-troupe | https://thatskyapplication.com/creator-troupe |
 | cretro         | https://thatskyapplication.com/creator-troupe |
