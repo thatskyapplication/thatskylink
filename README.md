@@ -6,6 +6,8 @@ This is intended for everything related to Sky. This is new, so we'll see how it
 
 ## Redirects
 
+Read this like `https://thatsky.link/<Identifier>`. For example, https://thatsky.link/wiki will take you to https://sky-children-of-the-light.fandom.com.
+
 ### General
 
 | Identifier     | URL                                           |
