@@ -15,6 +15,8 @@ Read this like `https://thatsky.link/<Identifier>`. For example, https://thatsky
 | creator-troupe | https://thatskyapplication.com/creator-troupe |
 | cretro         | https://thatskyapplication.com/creator-troupe |
 | ct             | https://thatskyapplication.com/creator-troupe |
+| dailies        | https://thatskyapplication.com/daily-guides   |
+| daily-guides   | https://thatskyapplication.com/daily-guides   |
 | dc             | https://discord.gg/thatskygame                |
 | discord        | https://discord.gg/thatskygame                |
 | facebook       | https://facebook.com/thatskygame              |
