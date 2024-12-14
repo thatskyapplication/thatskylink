@@ -28,6 +28,7 @@ Read this like `https://thatsky.link/<Identifier>`. For example, https://thatsky
 | merchandise    | https://thatskyshop.com                       |
 | reddit         | https://reddit.com/r/SkyGame                  |
 | reddit2        | https://reddit.com/r/SkyChildrenOfLight       |
+| shards         | https://thatskyapplication.com/shard-eruption |
 | skycord        | https://discord.gg/thatskygame                |
 | tgc            | https://thatgamecompany.com                   |
 | tiktok         | https://tiktok.com/@thatskygame               |
