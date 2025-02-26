@@ -503,4 +503,8 @@ export const REDIRECTS = new Map<string, `https://${string}`>([
 		"p0281",
 		"https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1377-hotfix---january-30-2025---0-28-1-310103-android-huawei-ios-steam-switch-310141-playstation",
 	],
+	[
+		"p0285",
+		"https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1381-patch-notes---february-27-2025---0-28-5-313329-android-huawei-ios-playstation-steam-switch",
+	],
 ]);
