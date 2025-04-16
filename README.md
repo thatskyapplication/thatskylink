@@ -12,9 +12,9 @@ Read this like `https://thatsky.link/<Identifier>`. For example, https://thatsky
 
 | Identifier     | URL                                           |
 | -------------- | --------------------------------------------- |
-| creator-troupe | https://thatskyapplication.com/creator-troupe |
-| cretro         | https://thatskyapplication.com/creator-troupe |
-| ct             | https://thatskyapplication.com/creator-troupe |
+| creator-troupe | https://thatskygame.com/creator-troupe        |
+| cretro         | https://thatskygame.com/creator-troupe        |
+| ct             | https://thatskygame.com/creator-troupe        |
 | dailies        | https://thatskyapplication.com/daily-guides   |
 | daily-guides   | https://thatskyapplication.com/daily-guides   |
 | dc             | https://discord.gg/thatskygame                |
