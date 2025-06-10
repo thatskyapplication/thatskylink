@@ -170,6 +170,7 @@ Read this like `https://thatsky.link/<Identifier>`. For example, https://thatsky
 | p0291      | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1394-hotfix---may-1-2025---0-29-1-321453-android-huawei-ios-steam-switch-321479-playstation                    |
 | p0292      | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1397-hotfix---may-7-2025---0-29-2-323010-ios                                                                   |
 | p0295      | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1398-patch-notes---may-29-2025---0-29-5-325756-android-huawei-ios-playstation-steam-switch                     |
+| p0296      | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1400-hotfix---june-12-2025---0-29-6-327779-android-huawei-ios-playstation-steam-327549-switch                  |
 
 ## Support
 
