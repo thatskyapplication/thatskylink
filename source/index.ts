@@ -2,8 +2,8 @@ import { REDIRECTS } from "./redirects.js";
 
 export default {
 	fetch(request) {
-		if (request.method !== "GET") {
-			return new Response("Method not allowed.", { status: 405 });
+		if (!(request.method === "GET" || request.method === "HEAD")) {
+			return new Response(null, { status: 405 });
 		}
 
 		const url = new URL(request.url);
