@@ -1,7 +1,20 @@
 {
 	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+	"assist": {
+		"actions": {
+			"source": {
+				"organizeImports": "on",
+				"useSortedAttributes": "on",
+				"useSortedProperties": "on"
+			}
+		}
+	},
+	"files": {
+		"includes": ["**", "!.react-router", "!distribution", "!build"]
+	},
 	"formatter": {
-		"lineWidth": 100
+		"lineWidth": 100,
+		"formatWithErrors": true
 	},
 	"javascript": {
 		"formatter": {
@@ -10,26 +23,60 @@
 	},
 	"linter": {
 		"rules": {
-			"all": true,
-			"correctness": {
-				"noUndeclaredVariables": "off"
-			},
 			"complexity": {
-				"noVoid": "off"
+				"noForEach": "on",
+				"noThisInStatic": "off",
+				"noVoid": "off",
+				"useSimplifiedLogicExpression": "on"
+			},
+			"correctness": {
+				"noUndeclaredDependencies": "on",
+				"useJsxKeyInIterable": "on"
+			},
+			"nursery": {
+				"noFloatingPromises": "on"
+			},
+			"performance": {
+				"noBarrelFile": "on",
+				"noDelete": "on"
 			},
 			"style": {
-				"noDefaultExport": "off",
+				"noInferrableTypes": "error",
+				"noNegationElse": "error",
 				"noNonNullAssertion": "off",
+				"noParameterAssign": "error",
+				"noUnusedTemplateLiteral": "error",
+				"noUselessElse": "error",
+				"noYodaExpression": "error",
+				"useAsConstAssertion": "error",
+				"useBlockStatements": "error",
+				"useCollapsedElseIf": "error",
+				"useCollapsedIf": "error",
+				"useConsistentArrayType": "error",
+				"useConsistentCurlyBraces": "error",
+				"useConsistentMemberAccessibility": {
+					"level": "error",
+					"options": {
+						"accessibility": "explicit"
+					}
+				},
+				"useDefaultParameterLast": "error",
+				"useEnumInitializers": "error",
+				"useExplicitLengthCheck": "error",
+				"useForOf": "error",
+				"useFragmentSyntax": "error",
 				"useNamingConvention": "off",
-				"useSingleCaseStatement": "error"
+				"useNumberNamespace": "error",
+				"useSelfClosingElements": "error",
+				"useShorthandAssign": "error",
+				"useSingleVarDeclarator": "error"
 			},
 			"suspicious": {
-				"noConsoleLog": "off"
+				"noAlert": "error",
+				"noConstantBinaryExpressions": "on",
+				"noConstEnum": "off"
 			}
 		}
-	},
-	"organizeImports": {
-		"enabled": true
 	},
 	"vcs": {
 		"clientKind": "git",

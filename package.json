@@ -10,9 +10,9 @@
 		"update": "pnpm update --interactive --latest"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^1.9.4",
+		"@biomejs/biome": "^2.2.0",
 		"@cloudflare/workers-types": "^4.20241205.0",
-		"typescript": "^5.7.2",
+		"typescript": "^5.9.2",
 		"wrangler": "^3.93.0"
 	}
 }
