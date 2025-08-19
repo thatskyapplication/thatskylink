@@ -7,6 +7,16 @@ export default {
 		}
 
 		const url = new URL(request.url);
+		const pathname = url.pathname;
+
+		if (pathname.startsWith("/profiles/")) {
+			const userId = pathname.slice(10);
+
+			if (userId) {
+				return Response.redirect(`https://thatskyapplication.com/sky-profiles/${userId}`, 301);
+			}
+		}
+
 		const redirect = REDIRECTS.get(url.pathname.slice(1).toLowerCase());
 
 		if (redirect) {
