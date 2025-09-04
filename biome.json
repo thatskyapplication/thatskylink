@@ -9,9 +9,6 @@
 			}
 		}
 	},
-	"files": {
-		"includes": ["**", "!.react-router", "!distribution", "!build"]
-	},
 	"formatter": {
 		"lineWidth": 100,
 		"formatWithErrors": true

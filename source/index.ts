@@ -1,7 +1,13 @@
+import { withSentry } from "@sentry/cloudflare";
 import { REDIRECTS } from "./redirects.js";
 
-export default {
-	fetch(request) {
+interface Env {
+	SENTRY_DATA_SOURCE_NAME: string;
+}
+
+export default withSentry((env) => ({ dsn: env.SENTRY_DATA_SOURCE_NAME, sendDefaultPii: true }), {
+	// Need env here so Sentry does not see it as unknown.
+	fetch(request, _env) {
 		if (!(request.method === "GET" || request.method === "HEAD")) {
 			return new Response(null, { status: 405 });
 		}
@@ -25,4 +31,4 @@ export default {
 
 		return Response.redirect("https://github.com/thatskyapplication/thatskylink", 301);
 	},
-} satisfies ExportedHandler;
+} satisfies ExportedHandler<Env>);

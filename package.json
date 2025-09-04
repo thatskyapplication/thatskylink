@@ -9,10 +9,13 @@
 		"deploy": "wrangler deploy",
 		"update": "pnpm update --interactive --latest"
 	},
+	"dependencies": {
+		"@sentry/cloudflare": "^10.10.0"
+	},
 	"devDependencies": {
-		"@biomejs/biome": "^2.2.0",
-		"@cloudflare/workers-types": "^4.20241205.0",
+		"@biomejs/biome": "^2.2.2",
+		"@cloudflare/workers-types": "^4.20250904.0",
 		"typescript": "^5.9.2",
-		"wrangler": "^3.93.0"
+		"wrangler": "^4.33.2"
 	}
 }
