@@ -44,9 +44,9 @@ Read this like `https://thatsky.link/<Identifier>`. For example, https://thatsky
 
 ### Sky profiles
 
-Simply put the user id as the identifer in `https://thatsky.link/profile/<Identifier>`. 
+Simply put the user id as the identifer in `https://thatsky.link/profiles/<Identifier>`. 
 
-For example, https://thatsky.link/profile/618976181026422814 will take you to https://thatskyapplication.com/sky-profiles/618976181026422814.
+For example, https://thatsky.link/profiles/618976181026422814 will take you to https://thatskyapplication.com/sky-profiles/618976181026422814.
 
 ### Patch notes
 
