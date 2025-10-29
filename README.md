@@ -186,7 +186,8 @@ For example, https://thatsky.link/profiles/618976181026422814 will take you to h
 | p0308      | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1413-hotfix---september-16-2025---0-30-8-345504-android-huawei-ios-playstation-steam                           |
 | p0309      | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1418-hotfix-october-7-2025---0-30-9-349947-steam-349982-ios-350383-playstation-350089-android-huawei           |
 | p31        | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1420-update-31-0---october-16-2025/?l=en&s=gameplay-features&f=what-is-a-traveling-spirit                      |
-| p0310        | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1420-update-31-0---october-16-2025/?l=en&s=gameplay-features&f=what-is-a-traveling-spirit                    |
+| p0310      | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1420-update-31-0---october-16-2025/?l=en&s=gameplay-features&f=what-is-a-traveling-spirit                      |
+| p0311      | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1421-hotfix-31-1---october-28-2025/?l=en&s=gameplay-features&f=what-is-a-traveling-spirit                      |
 
 ## Support
 
