@@ -6,7 +6,9 @@ This is intended for everything related to Sky. This is new, so we'll see how it
 
 ## Redirects
 
-Read this like `https://thatsky.link/<Identifier>`. For example, https://thatsky.link/wiki will take you to https://sky-children-of-the-light.fandom.com.
+Read this like `https://thatsky.link/<Identifier>`.
+
+For example, https://thatsky.link/wiki will take you to https://sky-children-of-the-light.fandom.com.
 
 ### General
 
@@ -44,7 +46,7 @@ Read this like `https://thatsky.link/<Identifier>`. For example, https://thatsky
 
 ### Sky profiles
 
-Simply put the user id as the identifer in `https://thatsky.link/profiles/<Identifier>`. 
+Simply put the user id as the identifer in `https://thatsky.link/profiles/<Identifier>`.
 
 For example, https://thatsky.link/profiles/618976181026422814 will take you to https://thatskyapplication.com/sky-profiles/618976181026422814.
 
