@@ -196,6 +196,7 @@ For example, https://thatsky.link/profiles/618976181026422814 will take you to h
 | p315       | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1427-update-31-5---december-1-2025                                                                             |
 | p316       | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1428-hotfix-31-6---december-11-2025                                                                            |
 | p320       | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1430-update-32-0---january-6th-2026                                                                            |
+| p321       | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1434-hotfix-32-1---january-13-2026                                                                             |
 
 ## Support
 
