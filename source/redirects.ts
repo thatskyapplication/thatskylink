@@ -603,4 +603,8 @@ export const REDIRECTS = new Map<string, `https://${string}`>([
 		"p321",
 		"https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1434-hotfix-32-1---january-13-2026",
 	],
+	[
+		"p322",
+		"https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1435-hotfix-32-2---january-29-2026",
+	],
 ]);
