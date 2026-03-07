@@ -2,7 +2,7 @@
 
 A link redirector for Sky: Children of the Light. So magical!
 
-This is intended for everything related to Sky. This is new, so we'll see how it goes.
+This is intended for everything related to Sky.
 
 ## Redirects
 
