@@ -10,12 +10,12 @@
 		"update": "pnpm update --interactive --latest"
 	},
 	"dependencies": {
-		"@sentry/cloudflare": "^10.10.0"
+		"@sentry/cloudflare": "^10.42.0"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^2.2.2",
-		"@cloudflare/workers-types": "^4.20250904.0",
-		"typescript": "^5.9.2",
-		"wrangler": "^4.33.2"
+		"@biomejs/biome": "^2.4.6",
+		"@cloudflare/workers-types": "^4.20260307.1",
+		"typescript": "^5.9.3",
+		"wrangler": "^4.71.0"
 	}
 }

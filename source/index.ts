@@ -7,7 +7,7 @@ interface Env {
 }
 
 export default withSentry(
-	(env) => ({
+	(env: Env) => ({
 		dsn: env.SENTRY_DATA_SOURCE_NAME,
 		release: env.CF_VERSION_METADATA.id,
 		sendDefaultPii: true,
