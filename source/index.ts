@@ -21,10 +21,10 @@ export default withSentry(
 			}
 
 			const url = new URL(request.url);
-			const pathname = url.pathname;
+			const pathname = url.pathname.toLowerCase().slice(1);
 
-			if (pathname.startsWith("/profiles/")) {
-				const userId = pathname.slice(10);
+			if (pathname.startsWith("profiles/")) {
+				const userId = pathname.slice(9);
 
 				if (userId) {
 					return Response.redirect(`https://thatskyapplication.com/sky-profiles/${userId}`, 301);
@@ -45,7 +45,7 @@ export default withSentry(
 				}
 			}
 
-			const redirect = REDIRECTS.get(pathname.slice(1).toLowerCase());
+			const redirect = REDIRECTS.get(pathname);
 
 			if (redirect) {
 				return Response.redirect(redirect, 301);
