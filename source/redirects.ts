@@ -30,14 +30,6 @@ export const REDIRECTS = new Map<string, `https://${string}`>([
 	["youtube", "https://youtube.com/@thatgamecompany"],
 	["yt", "https://youtube.com/@thatgamecompany"],
 
-	// This Month in Sky.
-	["tmis202510", "https://www.thatskygame.com/news/this-month-in-sky-october-2025-edition"],
-	["tmis202511", "https://www.thatskygame.com/news/this-month-in-sky-november-2025-edition"],
-	["tmis202512", "https://www.thatskygame.com/news/this-month-in-sky-december-2025-edition"],
-	["tmis202601", "https://www.thatskygame.com/news/this-month-in-sky-january-2026-edition"],
-	["tmis202602", "https://www.thatskygame.com/news/this-month-in-sky-february-2026-edition"],
-	["tmis202603", "https://www.thatskygame.com/news/this-month-in-sky-march-2026-edition"],
-
 	// Patch notes.
 	[
 		"p",
