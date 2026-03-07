@@ -50,6 +50,12 @@ Simply put the user id as the identifer in `https://thatsky.link/profiles/<Ident
 
 For example, https://thatsky.link/profiles/618976181026422814 will take you to https://thatskyapplication.com/sky-profiles/618976181026422814.
 
+### This Month in Sky
+
+The identifier is made up of three parts: "tmis", the year (YYYY), and the month (MM).
+
+For example, to get the January 2026 entry, simply type `https://thatsky.link/tmis202601`.
+
 ### Patch notes
 
 | Identifier | URL                                                                                                                                                                                         |

@@ -1,5 +1,6 @@
 import { withSentry } from "@sentry/cloudflare";
 import { REDIRECTS } from "./redirects.js";
+import { THIS_MONTH_IN_SKY_MONTH_NAMES, THIS_MONTH_IN_SKY_REGEX } from "./utility/constants.js";
 
 interface Env {
 	SENTRY_DATA_SOURCE_NAME: string;
@@ -20,17 +21,31 @@ export default withSentry(
 			}
 
 			const url = new URL(request.url);
-			const pathname = url.pathname;
+			const pathname = url.pathname.toLowerCase().slice(1);
 
-			if (pathname.startsWith("/profiles/")) {
-				const userId = pathname.slice(10);
+			if (pathname.startsWith("profiles/")) {
+				const userId = pathname.slice(9);
 
 				if (userId) {
 					return Response.redirect(`https://thatskyapplication.com/sky-profiles/${userId}`, 301);
 				}
 			}
 
-			const redirect = REDIRECTS.get(url.pathname.slice(1).toLowerCase());
+			const tmisMatch = THIS_MONTH_IN_SKY_REGEX.exec(pathname);
+
+			if (tmisMatch) {
+				const [, year, rawMonth] = tmisMatch;
+				const month = Number(rawMonth);
+
+				if (month >= 1 && month <= 12) {
+					return Response.redirect(
+						`https://www.thatskygame.com/news/this-month-in-sky-${THIS_MONTH_IN_SKY_MONTH_NAMES[month - 1]}-${year}-edition`,
+						301,
+					);
+				}
+			}
+
+			const redirect = REDIRECTS.get(pathname);
 
 			if (redirect) {
 				return Response.redirect(redirect, 301);
