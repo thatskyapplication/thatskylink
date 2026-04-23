@@ -215,10 +215,10 @@ For example, to get the January 2026 entry, simply type `https://thatsky.link/tm
 
 ### Known issues
 
-| Identifier  | URL                                                                                               |
-| ----------- | ------------------------------------------------------------------------------------------------- |
-| k           | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/section/111-known-issues |
-| knownissues | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/section/111-known-issues |
+| Identifier   | URL                                                                                               |
+| ------------ | ------------------------------------------------------------------------------------------------- |
+| known-issues | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/section/111-known-issues |
+| knownissues  | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/section/111-known-issues |
 
 ## Support
 

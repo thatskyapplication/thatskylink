@@ -1,4 +1,4 @@
-import { PATCH_NOTES_SECTION_REDIRECT } from "./utility/constants.js";
+import { KNOWN_ISSUES_SECTION_REDIRECT, PATCH_NOTES_SECTION_REDIRECT } from "./utility/constants.js";
 
 export const REDIRECTS = new Map<string, `https://${string}`>([
 	// General.
@@ -38,14 +38,8 @@ export const REDIRECTS = new Map<string, `https://${string}`>([
 	["patches", PATCH_NOTES_SECTION_REDIRECT],
 
 	// Known issues.
-	[
-		"k",
-		"https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/section/111-known-issues",
-	],
-	[
-		"knownissues",
-		"https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/section/111-known-issues",
-	],
+	["known-issues", KNOWN_ISSUES_SECTION_REDIRECT],
+	["knownissues", KNOWN_ISSUES_SECTION_REDIRECT],
 ]);
 
 export const PATCH_NOTES_REDIRECTS = {
