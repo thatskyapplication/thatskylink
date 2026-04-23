@@ -1,5 +1,5 @@
 import { withSentry } from "@sentry/cloudflare";
-import { REDIRECTS } from "./redirects.js";
+import { LATEST_PATCH_NOTES, REDIRECTS } from "./redirects.js";
 import { THIS_MONTH_IN_SKY_MONTH_NAMES, THIS_MONTH_IN_SKY_REGEX } from "./utility/constants.js";
 
 interface Env {
@@ -43,6 +43,10 @@ export default withSentry(
 						301,
 					);
 				}
+			}
+
+			if (pathname === "p") {
+				return Response.redirect(LATEST_PATCH_NOTES, 302);
 			}
 
 			const redirect = REDIRECTS.get(pathname);
