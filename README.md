@@ -212,6 +212,13 @@ For example, to get the January 2026 entry, simply type `https://thatsky.link/tm
 | p330       | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1447-update-33-0---april-14th-2026                                                                             |
 | p331       | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1448-hotfix-33-1---april-15-2026-ios-steam                                                                     |
 
+### Known issues
+
+| Identifier  | URL                                                                                               |
+| ----------- | ------------------------------------------------------------------------------------------------- |
+| k           | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/section/111-known-issues |
+| knownissues | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/section/111-known-issues |
+
 ## Support
 
 Join the [support server] for any help. We're here for you! 🩵

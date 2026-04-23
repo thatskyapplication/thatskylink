@@ -635,4 +635,14 @@ export const REDIRECTS = new Map<string, `https://${string}`>([
 		"p331",
 		"https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1448-hotfix-33-1---april-15-2026-ios-steam",
 	],
+
+	// Known issues.
+	[
+		"k",
+		"https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/section/111-known-issues",
+	],
+	[
+		"knownissues",
+		"https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/section/111-known-issues",
+	],
 ]);
