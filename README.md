@@ -32,6 +32,7 @@ For example, https://thatsky.link/wiki will take you to https://sky-children-of-
 | reddit2        | https://reddit.com/r/SkyChildrenOfLight       |
 | shards         | https://thatskyapplication.com/shard-eruption |
 | skycord        | https://discord.gg/thatskygame                |
+| store          | https://store.thatskygame.com                |
 | tgc            | https://thatgamecompany.com                   |
 | tiktok         | https://tiktok.com/@thatskygame               |
 | tsa            | https://thatskyapplication.com                |

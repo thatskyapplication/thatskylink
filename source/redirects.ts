@@ -24,6 +24,7 @@ export const REDIRECTS = new Map<string, `https://${string}`>([
 	["reddit2", "https://reddit.com/r/SkyChildrenOfLight"],
 	["shards", "https://thatskyapplication.com/shard-eruption"],
 	["skycord", "https://discord.gg/thatskygame"],
+	["store", STORE_REDIRECT],
 	["tgc", "https://thatgamecompany.com"],
 	["tiktok", "https://tiktok.com/@thatskygame"],
 	["tsa", "https://thatskyapplication.com"],
