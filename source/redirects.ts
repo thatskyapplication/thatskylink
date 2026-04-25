@@ -1,6 +1,7 @@
 import {
 	KNOWN_ISSUES_SECTION_REDIRECT,
 	PATCH_NOTES_SECTION_REDIRECT,
+	STORE_REDIRECT,
 } from "./utility/constants.js";
 
 export const REDIRECTS = new Map<string, `https://${string}`>([
@@ -28,8 +29,8 @@ export const REDIRECTS = new Map<string, `https://${string}`>([
 	["tsa", "https://thatskyapplication.com"],
 	["tsg", "https://thatskygame.com"],
 	["twitter", "https://x.com/thatskygame"],
-	["webshop", "https://store.thatskygame.com"],
-	["webstore", "https://store.thatskygame.com"],
+	["webshop", STORE_REDIRECT],
+	["webstore", STORE_REDIRECT],
 	["wiki", "https://sky-children-of-the-light.fandom.com"],
 	["x", "https://x.com/thatskygame"],
 	["youtube", "https://youtube.com/@thatgamecompany"],
