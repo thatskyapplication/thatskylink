@@ -37,8 +37,8 @@ For example, https://thatsky.link/wiki will take you to https://sky-children-of-
 | tsa            | https://thatskyapplication.com                |
 | tsg            | https://thatskygame.com                       |
 | twitter        | https://x.com/thatskygame                     |
-| webshop        | https://webshop.thatskygame.com               |
-| webstore       | https://webshop.thatskygame.com               |
+| webshop        | https://store.thatskygame.com                 |
+| webstore       | https://store.thatskygame.com                 |
 | wiki           | https://sky-children-of-the-light.fandom.com  |
 | x              | https://x.com/thatskygame                     |
 | youtube        | https://youtube.com/@thatgamecompany          |
