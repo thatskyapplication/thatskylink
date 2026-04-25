@@ -1,4 +1,8 @@
-import { KNOWN_ISSUES_SECTION_REDIRECT, PATCH_NOTES_SECTION_REDIRECT } from "./utility/constants.js";
+import {
+	KNOWN_ISSUES_SECTION_REDIRECT,
+	PATCH_NOTES_SECTION_REDIRECT,
+	STORE_REDIRECT,
+} from "./utility/constants.js";
 
 export const REDIRECTS = new Map<string, `https://${string}`>([
 	// General.
@@ -20,13 +24,14 @@ export const REDIRECTS = new Map<string, `https://${string}`>([
 	["reddit2", "https://reddit.com/r/SkyChildrenOfLight"],
 	["shards", "https://thatskyapplication.com/shard-eruption"],
 	["skycord", "https://discord.gg/thatskygame"],
+	["store", STORE_REDIRECT],
 	["tgc", "https://thatgamecompany.com"],
 	["tiktok", "https://tiktok.com/@thatskygame"],
 	["tsa", "https://thatskyapplication.com"],
 	["tsg", "https://thatskygame.com"],
 	["twitter", "https://x.com/thatskygame"],
-	["webshop", "https://webshop.thatskygame.com"],
-	["webstore", "https://webshop.thatskygame.com"],
+	["webshop", STORE_REDIRECT],
+	["webstore", STORE_REDIRECT],
 	["wiki", "https://sky-children-of-the-light.fandom.com"],
 	["x", "https://x.com/thatskygame"],
 	["youtube", "https://youtube.com/@thatgamecompany"],

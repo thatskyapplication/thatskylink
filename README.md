@@ -32,13 +32,14 @@ For example, https://thatsky.link/wiki will take you to https://sky-children-of-
 | reddit2        | https://reddit.com/r/SkyChildrenOfLight       |
 | shards         | https://thatskyapplication.com/shard-eruption |
 | skycord        | https://discord.gg/thatskygame                |
+| store          | https://store.thatskygame.com                |
 | tgc            | https://thatgamecompany.com                   |
 | tiktok         | https://tiktok.com/@thatskygame               |
 | tsa            | https://thatskyapplication.com                |
 | tsg            | https://thatskygame.com                       |
 | twitter        | https://x.com/thatskygame                     |
-| webshop        | https://webshop.thatskygame.com               |
-| webstore       | https://webshop.thatskygame.com               |
+| webshop        | https://store.thatskygame.com                 |
+| webstore       | https://store.thatskygame.com                 |
 | wiki           | https://sky-children-of-the-light.fandom.com  |
 | x              | https://x.com/thatskygame                     |
 | youtube        | https://youtube.com/@thatgamecompany          |
