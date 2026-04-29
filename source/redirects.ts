@@ -317,6 +317,7 @@ export const PATCH_NOTES_REDIRECTS = {
 	p329: "https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1445-hotfix-32-9---april-4-2026-android-ios-steam-playstation-huawei-1775332429",
 	p330: "https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1447-update-33-0---april-14th-2026",
 	p331: "https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1448-hotfix-33-1---april-15-2026-ios-steam",
+	p332: "https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1449-hotfix-33-2---april-29-2026",
 } as const satisfies Record<string, `https://${string}`>;
 
 export const LATEST_PATCH_NOTES = Object.values(PATCH_NOTES_REDIRECTS).at(-1)!;
