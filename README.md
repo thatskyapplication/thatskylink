@@ -215,6 +215,7 @@ For example, to get the January 2026 entry, simply type `https://thatsky.link/tm
 | p331        | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1448-hotfix-33-1---april-15-2026-ios-steam                                                                     |
 | p332        | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1449-hotfix-33-2---april-29-2026                                                                               |
 | p335        | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1450-update-33-5---may-26th-2026                                                                               |
+| p337        | https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1454-hotfix-33-7---june-9th-2026                                                                               |
 
 ### Known issues
 
